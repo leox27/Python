@@ -1,0 +1,197 @@
+Question 1:
+Rotate the elements of an array by k positions.
+	* You are given an array of integers.
+	* Ask the user to input:
+	* The direction of rotation (`left` or `right`)
+	* The number of positions `k`
+	* If the direction is left, shift the elements towards the left by `k` positions.
+	* If the direction is right, shift the elements towards the right by `k` positions.
+	* The rotation should be circular, meaning elements shifted out from one side should reappear on the other side.
+
+Input:
+numbers = [1, 2, 3, 4, 5]
+direction = right
+k = 2
+
+Output:
+[4, 5, 1, 2, 3]
+
+
+Input:
+numbers = [1, 2, 3, 4, 5]
+direction = left
+k = 2
+
+Output:
+[3, 4, 5, 1, 2]
+
+
+Constraints:
+* Do not use `while` loops
+* Use only `for` loops for iteration
+* Do not use inbuilt rotation functions
+
+
+
+Question 2:
+Find all the leaders in an array.
+	* A leader is an element that is greater than or equal to all the elements to its right.
+	* You are given an array of integers.
+	* Traverse the array to identify all such leader elements.
+	* A leader should satisfy the condition:
+	* It must be greater than or equal to every element on its right side.
+	* Store all the leader elements in a list and display the result.
+
+Input:
+arr = [9, 10, 2, 4, 8, 5]
+Output:
+
+[10, 8, 5]
+
+Input:
+arr = [16, 17, 4, 3, 5, 2]
+
+Output:
+[17, 5, 2]
+
+Constraints:
+	* Use only loops for traversal
+	* Do not use unnecessary extra variables like flags
+	* Avoid using built-in functions for direct computation
+	* The solution should correctly check all elements to the right of each element
+
+
+
+Question 3:
+Find all contiguous subarrays whose product is less than or equal to k.
+
+* You are given an array of positive integers and an integer k.
+* A subarray is a contiguous part of the array.
+* Generate all possible contiguous subarrays.
+* For each subarray, calculate the product of its elements.
+* Select only those subarrays whose product is less than or equal to k.
+* Print all such subarrays and also print their total count.
+
+Input:
+arr = [1, 2, 3, 4, 5]
+k = 10
+
+Output:
+8
+[1], [2], [3], [4], [5], [1,2], [1,2,3], [2,3]
+
+Input:
+arr = [2, 5, 3]
+k = 10
+
+Output:
+4
+[2], [5], [3], [2,5]
+
+Constraints:
+* Use only loops for generating subarrays
+* Do not use inbuilt functions for subarray generation
+* Each subarray must be contiguous
+* The product should be calculated manually
+* Ensure correct handling of all possible subarrays
+
+
+
+
+Question 4:
+Group domain names based on their extensions.
+
+* You are given a list of domain strings.
+* Each domain contains a name and an extension separated by a dot (.).
+* Extract:
+* The domain name (before the dot)
+* The extension (after the dot)
+* Group all domain names based on their extensions.
+* Store the result in a dictionary where:
+* Key → extension
+* Value → list of domain names having that extension
+
+Input:
+domain_list = ['amazon.com', 'indeed.in', 'google.com', 'python.py']
+
+Output:
+{
+'com': ['amazon', 'google'],
+'in': ['indeed'],
+'py': ['python']
+}
+
+
+Input:
+domain_list = ['test.org', 'code.py', 'learn.org']
+
+Output:
+{
+'org': ['test', 'learn'],
+'py': ['code']
+}
+
+Constraints:
+* Use only loops for traversal
+* Do not use inbuilt functions like split()
+* Extract domain name and extension manually
+* Maintain proper grouping in dictionary
+* Preserve all domain names under correct extension
+
+
+
+
+Question 5:
+WAP to print a sequence pattern where consecutive natural numbers are printed
+continuously in increasing triangular groups separated by spaces, based on the given value of n.
+
+Input : 3
+Output : 1   23   456
+
+
+
+Question 6:
+WAP to rotate the digits of a given number to the left or right by a specified number of positions using pure Python logic.
+
+Sample Input / Output :
+Input :
+Number : 12345
+Direction : left
+Shift : 1
+
+Output : 23451
+
+
+Input :
+Number : 23456
+Direction : right
+Shift : 2
+
+Output : 56234
+
+
+
+
+
+Question 7:
+WAP to print all 3-digit numbers in which the product of the first digit and the
+last digit is equal to the middle digit using pure Python logic.
+
+Output :
+100 111 122 133 144 155
+
+
+
+
+
+Question 8:
+
+WAP to print a pattern of numbers where each term contains consecutive digits starting
+from 1 up to the current row length using pure Python logic.
+
+Sample Input / Output :
+Input : 5
+Output : 1 12 123 1234 12345
+
+Input : 3
+Output : 1 12 123
