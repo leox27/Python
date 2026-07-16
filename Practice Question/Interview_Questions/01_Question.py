@@ -313,3 +313,28 @@ equal_product(999)
 100 111 122 133 144 155 166 177 188 199 200 221 242 263 284 300 331 362 393 400 441 482 500 551 600 661 700 771 800 881 900 991 
 '''
 
+
+"""
+Question 8:
+
+WAP to print a pattern of numbers where each term contains consecutive digits starting
+from 1 up to the current row length using pure Python logic.
+
+Sample Input / Output :
+Input : 5
+Output : 1 12 123 1234 12345
+
+Input : 3
+Output : 1 12 123
+"""
+
+def consecutive_digits(num: int) -> int:
+    for i in range(1, num+1):
+        for j in range(1, i+1):
+            print(j, end='')
+        print(end=' ')
+            
+consecutive_digits(5)
+'''
+1 12 123 1234 12345
+'''
