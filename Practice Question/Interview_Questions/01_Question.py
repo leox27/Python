@@ -247,3 +247,38 @@ triangular_pattern(3)
 23
 456
 '''
+
+
+"""
+Question 6:
+WAP to rotate the digits of a given number to the left or right by a specified number of positions using pure Python logic.
+
+Sample Input / Output :
+Input :
+Number : 12345
+Direction : left
+Shift : 1
+
+Output : 23451
+
+
+Input :
+Number : 23456
+Direction : right
+Shift : 2
+
+Output : 56234
+"""
+
+def rotate_digits(Number: int, Direction: str, Shift: int) -> int:
+    str_number = str(Number)
+    Shift %= len(str_number)
+    print(f'The Shift is {Shift}')
+    if Direction == 'left':
+        return str_number[Shift:] + str_number[:Shift]
+    
+    elif Direction == 'right':
+        return str_number[-Shift:] + str_number[:-Shift]
+        
+print(rotate_digits(123456789, 'right', 7))
+
