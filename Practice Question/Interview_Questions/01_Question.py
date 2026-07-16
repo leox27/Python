@@ -220,3 +220,30 @@ print(group_domain(['test.org', 'code.py', 'learn.org']))
 {'.com': ['google', 'amazon'], '.in': ['indeed'], '.py': ['python']}
 {'.org': ['learn', 'test'], '.py': ['code']}
 '''
+
+
+"""
+Question 5:
+WAP to print a sequence pattern where consecutive natural numbers are printed
+continuously in increasing triangular groups separated by spaces, based on the given value of n.
+
+Input : 3
+Output : 
+   1   
+   23   
+   456
+"""
+
+def triangular_pattern(num: int) -> None:
+    place_val = 1
+    for i in range(1, num+1):
+        print()
+        for j in range(1, i+1):
+            print(place_val, end="")
+            place_val += 1
+triangular_pattern(3)
+'''
+1
+23
+456
+'''
