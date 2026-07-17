@@ -36,3 +36,33 @@ Create 3 student objects.
 At least one student should have marks less than 40.
 Call both methods for every object.
 
+
+#3 (Instance Methods)
+
+Create a class named BankAccount.
+
+Requirements
+Use the __init__() constructor.
+The class should have these instance variables:
+- account_holder
+- account_number
+- balance
+
+Create these methods:
+- deposit(amount)
+  Add the amount to the balance.
+
+- withdraw(amount)
+  If the balance is enough, subtract the amount.
+  Otherwise, print "Insufficient Balance".
+
+- display()
+  Print the account holder name, account number, and current balance.
+
+Create 2 bank account objects.
+Perform at least:
+- One deposit
+- One successful withdrawal
+- One unsuccessful withdrawal
+
+Finally, display the account details.
