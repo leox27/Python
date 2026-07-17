@@ -66,3 +66,34 @@ Perform at least:
 - One unsuccessful withdrawal
 
 Finally, display the account details.
+
+
+#4 (Class Variables)
+
+Create a class named Employee.
+
+Requirements
+
+Use the __init__() constructor.
+
+Create these instance variables:
+- name
+- employee_id
+- salary
+
+Create one class variable:
+- company_name = "TCS"
+
+Create a method named display() that prints:
+- Employee Name
+- Employee ID
+- Salary
+- Company Name
+
+Create 3 employee objects.
+
+Call the display() method for each object.
+
+Finally, change the company name to "Infosys" using the class name.
+
+Call display() again for all employees and observe the output.
