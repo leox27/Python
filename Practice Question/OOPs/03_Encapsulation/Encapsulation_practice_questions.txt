@@ -140,3 +140,29 @@ bank_acc1.balance
 Update the balance using:
 bank_acc1.balance = new_balance
 Display the updated balance.
+
+
+
+#8. (Property Decorator with Validation)
+
+Create a class named Student.
+Requirements
+Use the __init__() constructor.
+Create these private instance variables:
+- __name
+- __age
+
+Use @property for the name.
+Use @name.setter to update the name.
+
+Use @property for the age.
+Use @age.setter to update the age only if age is between 5 and 100.
+
+If the age is invalid, print:
+"Invalid age"
+
+Create one Student object.
+Display the name and age.
+Update both name and age using property setters.
+Try setting an invalid age.
+Display the final values.
