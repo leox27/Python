@@ -115,3 +115,51 @@ Create a Developer object.
 Display the employee details.
 Call work().
 Calculate and print the bonus.
+
+
+
+#6. (Advanced Abstraction - Payment System)
+
+Create an abstract class named Payment.
+Requirements
+Use ABC and abstractmethod.
+
+Create a constructor that stores:
+- amount
+Create a normal method:
+- display_amount()
+
+It should print the payment amount.
+Create two abstract methods:
+- process_payment()
+- generate_receipt()
+
+Create three child classes:
+- CreditCardPayment
+- UPIPayment
+- CashPayment
+
+CreditCardPayment:
+- process_payment() should print:
+  "Processing Credit Card payment"
+- generate_receipt() should print:
+  "Credit Card receipt generated"
+
+UPIPayment:
+- process_payment() should print:
+  "Processing UPI payment"
+- generate_receipt() should print:
+  "UPI receipt generated"
+
+CashPayment:
+- process_payment() should print:
+  "Processing Cash payment"
+- generate_receipt() should print:
+  "Cash receipt generated"
+
+Create one object of each payment class.
+Call:
+- display_amount()
+- process_payment()
+- generate_receipt()
+Do not use if-else to identify the payment type.
