@@ -63,3 +63,25 @@ Create one Developer object and one Tester object.
 Call both:
 - display_name()
 - work()
+
+
+
+#4. (Abstract Class with Multiple Abstract Methods)
+
+Create an abstract class named Payment.
+Requirements
+Import ABC and abstractmethod from the abc module.
+Create two abstract methods:
+- pay()
+- refund()
+
+Create a child class named CreditCard.
+
+Implement both abstract methods.
+pay() should print:
+"Payment made using Credit Card"
+refund() should print:
+"Amount refunded to Credit Card"
+
+Create a CreditCard object.
+Call both methods.
