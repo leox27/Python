@@ -1,0 +1,21 @@
+###Abstraction Questions Practice
+
+#1. (Abstraction - Abstract Class and Abstract Method)
+
+Create an abstract class named Shape.
+Requirements
+Import ABC and abstractmethod from the abc module.
+Create an abstract method named area().
+
+Create a child class named Circle.
+Implement the area() method in Circle.
+
+Use the formula:
+Area = 3.14 * radius * radius
+
+Create a Circle object.
+Call the area() method.
+
+
+
+
