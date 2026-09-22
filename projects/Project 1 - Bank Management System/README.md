@@ -42,19 +42,19 @@ This project simulates a basic banking system where users can create and manage 
 
 ---
 
-# 🗄️ Database Schema
+## 🗄️ Database Schema
 
 The application uses a single **accounts** table to store customer account information.
 
 | Column | Data Type | Constraint |
-|---------|-----------|------------|
+| --------- | ----------- | ------------ |
 | account_number | TEXT | Primary Key |
 | customer_name | TEXT | NOT NULL |
 | balance | REAL | NOT NULL |
 
 ---
 
-# 🗺️ Entity Relationship (ER) Diagram
+## 🗺️ Entity Relationship (ER) Diagram
 
 ```mermaid
 erDiagram
@@ -124,25 +124,12 @@ Through this project, I gained practical experience in:
 
 ---
 
-## 🚀 Future Enhancements
+## 👨‍💻
 
-- Login Authentication
-- Transaction History
-- Money Transfer Between Accounts
-- Interest Calculation
-- Multiple Account Types
-- Admin Dashboard
-- GUI using Tkinter or PyQt
-- REST API using Flask or Django
+### Mayur Jadhav
 
----
-
-## 👨‍💻 Author
-
-**Mayur Jadhav**
-
-- GitHub: https://github.com/leox27
-- LinkedIn: https://linkedin.com/in/mayur-x27
+- GitHub: <https://github.com/leox27>
+- LinkedIn: <https://linkedin.com/in/mayur-x27>
 
 ---
 
